@@ -4,16 +4,19 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../button_classes.cpp \
 ../graph_class.cpp \
 ../lcd_lib.cpp \
 ../main.cpp 
 
 CPP_DEPS += \
+./button_classes.d \
 ./graph_class.d \
 ./lcd_lib.d \
 ./main.d 
 
 OBJS += \
+./button_classes.o \
 ./graph_class.o \
 ./lcd_lib.o \
 ./main.o 
@@ -31,7 +34,7 @@ OBJS += \
 clean: clean--2e-
 
 clean--2e-:
-	-$(RM) ./graph_class.d ./graph_class.o ./lcd_lib.d ./lcd_lib.o ./main.d ./main.o
+	-$(RM) ./button_classes.d ./button_classes.o ./graph_class.d ./graph_class.o ./lcd_lib.d ./lcd_lib.o ./main.d ./main.o
 
 .PHONY: clean--2e-
 
