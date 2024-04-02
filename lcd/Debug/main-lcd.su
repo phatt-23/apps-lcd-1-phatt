@@ -1,0 +1,27 @@
+/usr/local/mcuxpressoide-11.9.0_2144/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.9.0.202307121226/tools/arm-none-eabi/include/c++/12.3.1/arm-none-eabi/thumb/v7e-m+fp/softfp/bits/gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	8	static
+/usr/local/mcuxpressoide-11.9.0_2144/ide/plugins/com.nxp.mcuxpresso.tools.linux_11.9.0.202307121226/tools/arm-none-eabi/include/c++/12.3.1/bits/std_abs.h:56:3:long int std::abs(long int)	8	static
+/home/phatt/University/apps/lcd-1-prep/apps-workspace.mcu/lcd/mbed-os/drivers/include/drivers/DigitalIn.h:67:5:mbed::DigitalIn::DigitalIn(PinName)	16	static
+/home/phatt/University/apps/lcd-1-prep/apps-workspace.mcu/lcd/mbed-os/drivers/include/drivers/DigitalIn.h:86:5:mbed::DigitalIn::~DigitalIn()	16	static
+/home/phatt/University/apps/lcd-1-prep/apps-workspace.mcu/lcd/mbed-os/drivers/include/drivers/DigitalOut.h:73:5:mbed::DigitalOut::DigitalOut(PinName, int)	24	static
+../graph_class.hpp:26:5:GraphElement::GraphElement(RGB, RGB)	16	static
+../graph_class.hpp:31:10:void GraphElement::drawPixel(int32_t, int32_t)	24	static
+../graph_class.hpp:38:18:virtual void GraphElement::hide()	16	static
+../graph_class.hpp:41:10:void GraphElement::swap_fg_bg_color()	16	static
+../graph_class.hpp:42:14:uint16_t GraphElement::convert_RGB888_to_RGB565(RGB)	8	static
+../graph_class.hpp:50:5:Pixel::Pixel(Point2D, RGB, RGB)	24	static
+../graph_class.hpp:51:18:virtual void Pixel::draw()	16	static
+../graph_class.hpp:63:5:Circle::Circle(Point2D, int32_t, RGB, RGB)	24	static
+../graph_class.hpp:66:10:void Circle::other_octant(int, int, int, int)	24	static
+../graph_class.hpp:77:10:virtual void Circle::draw()	48	static
+../graph_class.hpp:115:5:Character::Character(Point2D, char, RGB, RGB)	24	static
+../graph_class.hpp:118:10:virtual void Character::draw()	16	static
+../graph_class.hpp:122:10:void Character::draw(uint8_t, uint8_t)	88	static
+../graph_class.hpp:146:5:String::String(Point2D, const char*, RGB, RGB)	24	static
+../graph_class.hpp:152:10:virtual void String::draw()	16	static
+../graph_class.hpp:156:10:void String::draw(uint8_t, uint8_t)	120	static
+../graph_class.hpp:194:5:Line::Line(Point2D, Point2D, RGB, RGB)	24	static
+../graph_class.hpp:197:10:void Line::draw_line(Point2D, Point2D)	56	static
+../graph_class.hpp:224:10:virtual void Line::draw()	24	static
+../main-lcd.cpp:16:5:int main()	312	static
+../main-lcd.cpp:52:1:void __static_initialization_and_destruction_0(int, int)	16	static
+../main-lcd.cpp:52:1:cpp)	8	static
